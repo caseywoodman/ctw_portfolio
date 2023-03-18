@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="container">
-      <h2 className="text-3xl bg-green-500">Created 2023</h2>
+    <div className="text-[#0B132B] bg-[#5BC0BE] p-4 text-center">
+      <h2 className="">Created 2023</h2>
     </div>
   );
 }
