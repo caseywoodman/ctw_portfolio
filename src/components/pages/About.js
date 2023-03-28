@@ -1,4 +1,5 @@
 import React from "react";
+import Headshot from "./assets/Woodman Headshot.jpg";
 
 function About() {
   return (
@@ -6,7 +7,7 @@ function About() {
       <h1 className="text-center text-3xl font-bold">ABOUT ME</h1>
       <div className="flex justify-center">
         <div className="p-4 w-3/12">
-          <img src="./assets/Woodman Headshot.jpg" alt="headshot" className="border-8 border-[#5BC0BE]" />
+          <img src={Headshot} alt="headshot" className="border-8 border-[#5BC0BE]" />
         </div>
         <div className="p-4 w-7/12 flex flex-wrap flex-1">
           <div className="flex flex-col m-2 bg-[#5BC0BE] text-black p-4 min-w-[40%] flex-1">

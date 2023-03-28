@@ -1,4 +1,5 @@
 import React from "react";
+import Headshot from "./assets/Woodman Headshot.jpg";
 
 function Contact() {
   return (
@@ -6,7 +7,7 @@ function Contact() {
       <h1 className="text-center text-3xl font-bold">CONTACT ME</h1>
       <div className="flex justify-center pt-4">
         <div className="pr-4 w-3/12 flex-0">
-          <img src="./assets/Woodman Headshot.jpg" alt="headshot" className="border-8 border-[#5BC0BE]" />
+          <img src={Headshot} alt="headshot" className="border-8 border-[#5BC0BE]" />
         </div>
         <div className="p-4 w-4/12 flex flex-col flex-wrap bg-[#5bc0be] flex-1 text-black">
           <div className="flex justify-center">
